@@ -1,0 +1,392 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: url("../img/bg.jpg") no-repeat center/cover;
+}
+.header{
+    position: relative;
+    width: 100%;
+}
+.header img{
+    display: block;
+    width: 100%;
+}
+.header .content{
+    position: absolute;
+    top:8.2%;right: 0;
+    width: 72.5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.header .content p{
+    font-size: 1rem;
+    color: #FBFC9E;
+}
+.header .content h2{
+    margin: 4rem 0 1rem 0;
+    font-size: 1.4rem;
+    color: #FBFC9E;
+}
+.header .content .p-con{
+    position: relative;
+    width: 75.5%;
+    height: 3rem;
+    padding: 0 2%;
+    line-height: 1.5rem;
+    background: url("../img/kuang.png") no-repeat center;
+    background-size: 100% 100%;
+    font-size: 1rem;
+    text-align: center;
+    /*border: 1px solid #FBFC9E;*/
+    color: #FFE3B6;
+    font-weight: 600;
+}
+.header .content .p-con span{
+    color: #fff;
+}
+.header .content .p-con:before{
+    position: absolute;
+    top: -1rem;
+    left: 0;
+    content: "2018 New Year's new Yan beautiful HOLD live";
+    display: block;
+    font-size: 0.5rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+}
+.header .content .p-btn{
+    margin-top: 0.4rem;
+    width: 40%;
+    height: 2rem;
+    background:url("../img/button.png") no-repeat center ;
+    background-size: 100% 100%;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1rem;
+    color: #fff;
+}
+.header .start{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 31%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.header .start .p-con{
+    width: 69%;
+    height: 3.5rem;
+    background: url("../img/BTbackground.png") no-repeat center;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 600;
+}
+.header .start p{
+    padding:0 5%;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #FFF2AB;
+}
+.show{
+    text-align: center;
+}
+.show ul{
+    width: 94%;
+    margin: 0 auto;
+    background: #fff;
+    border-left: 2px dotted #fff;
+    border-right: 2px dotted #fff;
+    display: flex;
+}
+.show ul li{
+    position: relative;
+    width: 23%;
+    margin: 1rem 4.6%;
+    border: 2px solid #337FB3;
+}
+.show ul li:after{
+    position: absolute;
+    content: '';
+    display: block;
+    bottom: -1rem;
+    right: -2rem;
+    width: 4rem;
+    height: 4rem;
+    border: 2px solid #337FB3;
+    border-radius: 50%;
+    background:url("../img/person1-1.png") no-repeat center/cover ;
+}
+.show ul li img{
+    display: block;
+    width: 100%;
+}
+.show p{
+    font-size: 1rem;
+    color: #FFDCA6;
+    word-spacing: 5px;
+}
+.show .p-btn{
+    display: inline-block;
+    margin-top: 0.4rem;
+    width: 30%;
+    height: 2rem;
+    background:url("../img/button.png") no-repeat center ;
+    background-size: 100% 100%;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1rem;
+    color: #fff;
+}
+section{
+    padding:0 1.5%;
+    text-align: center;
+}
+section .line{
+    margin-top: .5rem;
+    width: 100%;
+    height: 1px;
+    display: flex;
+}
+section .line div:nth-child(2n+1){
+    width: 25%;
+    border-top: 1px dotted #fff;
+    border-bottom: 1px dotted #fff;
+}
+section .line div:nth-child(2){
+    width: 50%;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+section .title .p-title{
+    margin: .5rem auto;
+    width: 60%;
+    height: 4rem;
+    background: url("../img/sectionBj.png") no-repeat center;
+    background-size: 100% 100%;
+    text-align: center;
+    line-height: 4rem;
+    font-size: 1.4rem;
+    color: #fff;
+}
+section .title h2{
+    font-size: 1.6rem;
+    color: #FFFFA6;
+    line-height: 2rem;
+}
+section ul{
+    padding:.5rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+section ul li{
+    width: 33%;
+    border-left: 2px dotted #fff;
+    border-right: 2px dotted #fff;
+    margin-bottom: 2px;
+    background: #fff;
+}
+section ul li img{
+    display: block;
+    width: 100%;
+}
+section ul.magic li .p-con h2{
+    font-size: 1rem;
+    color: #4085C0;
+    line-height: 1.8rem;
+}
+section ul.magic li .p-con p{
+    font-size: 0.75rem;
+    color: #4085C0;
+    line-height: 1rem;
+    margin-bottom: .5rem;
+}
+section ul.magic li .buy{
+    margin:7.8% auto;
+    width: 88%;
+    height: 84.6%;
+    border: 2px solid #2185D3;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+}
+section ul li .buy p{
+    font-size: 1rem;
+    color: #2185D3;
+    line-height: 1rem;
+    font-weight: 500;
+}
+section ul li .buy a,section .jg a,section ul.zx li a,section ul.zc li a{
+    display: block;
+    width: 78%;
+    height: 2rem;
+    background: #2185D3;
+    border-radius: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    line-height: 2rem;
+    font-weight: 600;
+    margin: 0 auto;
+}
+section .jg{
+    margin-top: .5rem;
+    background: #fff;
+    padding:0 1% .5rem;
+}
+section .jg ul li{
+    width: 49.8%;
+}
+section .jg a{
+    margin: 0 auto;
+    width: 23%;
+}
+section ul.zx li{
+    padding: 2px;
+    text-align: center;
+}
+section ul.zx li .p-con h2{
+    font-size: .8rem;
+    color: #038BF7;
+}
+section ul.zx li .p-con p{
+    font-size: .75rem;
+    color: #038BF7;
+}
+section ul.zx li .p-con p span{
+    font-size: 1.1rem;
+    color: #038BF7;
+    font-weight: 600;
+}
+section ul.zx li a{
+    margin: 0 auto;
+    width: 50%;
+    height: 1.2rem;
+    font-size: .8rem;
+    line-height: 1.2rem;
+}
+section ul.zx li.js{
+    position: relative;
+    width: 66.5%;
+}
+section ul.zx li.js img{
+    width: 60%;
+}
+section ul.zx li.js p{
+    font-size: .75rem;
+    text-align: left;
+    line-height: 1.6rem;
+}
+section ul.zx li.js .p-con{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 41%;
+    height: 100%;
+    padding-top: 1.5rem;
+}
+section ul.zx li.js .p-con p{
+    text-align: center;
+    line-height: 1rem;
+}
+section ul.zx li.js .p-con a{
+    width: 60%;
+}
+section ul.zx li.js .p-con em{
+    display: block;
+    font-style: normal;
+    font-size: .6rem;
+    line-height: .9rem;
+}
+section ul.zc{
+    padding: .5rem 0 0;
+}
+section ul.zc li{
+    padding-bottom: .5rem;
+}
+section.contemporary ul li{
+    margin-bottom: .5rem;
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+}
+section.contemporary ul li .p-img{
+    width: 23.5%;
+}
+section.contemporary ul li .p-img img{
+    width: 100%;
+    height: 100%;
+}
+section.contemporary ul li .p-con{
+    width: 75.5%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+section.contemporary ul li .p-con .name{
+    width: 21.2%;
+    height: 100%;
+    padding: 0 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+section.contemporary ul li .p-con .name h2{
+    font-size: 1.5rem;
+    color: #0694FF;
+}
+section.contemporary ul li .p-con .name p{
+    font-size: 1rem;
+    color: #000;
+    font-weight: 600;
+}
+section.contemporary ul li .p-con .introduction{
+    width: 78%;
+}
+section.contemporary ul li .p-con .introduction p{
+    font-size: .7rem;
+    text-align: left;
+}
+section.contemporary ul li .p-con .introduction p span{
+    font-weight: 600;
+}
+section:nth-child(2n+1) .title{
+    background: url("../img/cloudLeft.png") no-repeat left center;
+    background-size: 30% 70%;
+}
+section:nth-child(2n) .title{
+    background: url("../img/cloudLeft.png") no-repeat right center;
+    background-size: 30% 70%;
+}
+section:last-child{
+    background: url("../img/footer.png") no-repeat center bottom;
+}
